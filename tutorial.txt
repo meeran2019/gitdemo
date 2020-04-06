@@ -1,7 +1,35 @@
 local repository  -> Staging -> Local repository  -> remote repository -> remote fork request -> pull request.
 
+GIT:
+
 1. git init -> to initialize the git in project folder.
 2. .gitignore  -> this is file and names mentioned in this file will not be staged.
 3. git add file-name  -> this is used to add to stage directory.
+    git add .  -> stage full directory
 4. git status -> check the status
 5. git log -> check the commit status.
+6. git commit -m "message"   -> used to commit the change from stage library to local repository.
+7. git checkout name -> it checkout or copy from local repository to workspace.
+
+GIT HUB:
+
+this is remote connection.
+
+https://github.com/meeran2019/gitdemo.git
+
+1. First create the repository in github page.
+2. git remote add (origin or any any name) https://github.com/meeran2019/gitdemo.git  -> this establish the connection.
+3. git push origin master -> push to remote (master - branch, origin - remote name)
+
+CLONE:
+
+git clone html-path 
+
+
+BRANCH:
+
+1. git branch  -> it gives the list of branch.
+2. git branch branch-name  -> it created new branch branch-name.
+3. git checkout branch-name  -> it switch to another branch.
+4. 
+
