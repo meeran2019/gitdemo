@@ -1,0 +1,7 @@
+local repository  -> Staging -> Local repository  -> remote repository -> remote fork request -> pull request.
+
+1. git init -> to initialize the git in project folder.
+2. .gitignore  -> this is file and names mentioned in this file will not be staged.
+3. git add file-name  -> this is used to add to stage directory.
+4. git status -> check the status
+5. git log -> check the commit status.
